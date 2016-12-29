@@ -1,0 +1,45 @@
+#menu{
+	z-index:999;
+	height:75px;
+	background:$menuColor;
+	box-shadow:6px 6px 0px rgba(103, 102, 102, 0.2);
+	position: fixed;
+	ul{
+		li{
+			color:white;
+			display: inline-block;
+			font-size: 18px;
+			padding:0px 10px;
+			margin:0;
+			text-align:center;
+			font-weight: 600px;
+			line-height: 75px;
+			transition: all .2s ease;
+			&:hover{
+				background:#D12881;
+				cursor:pointer;
+			}
+		}
+
+	}
+	.float-left{
+		float:left;
+	}
+	.float-right{
+		float:right;
+	}
+	.logo{
+		height:110px;
+		border-radius:0px 0px 85px 85px;
+		background:$menuColor;
+		transition: all .2s ease;
+		img{
+			height: 105px;
+			padding:10px;
+		}
+		&:hover{
+			background:#D12881;
+			cursor:pointer;
+		}
+	}
+}
