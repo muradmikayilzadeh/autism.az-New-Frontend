@@ -18,6 +18,7 @@ $headingColor:#D12881;
 @import 'partials/blog';
 @import 'partials/info';
 @import 'partials/contact';
+@import 'partials/footer';
 
 
 
@@ -39,5 +40,10 @@ $headingColor:#D12881;
 		url('../vendor/fonts/Comfortaa-Light.ttf') format('truetype');
 	font-weight: 300;
 	font-style: normal;
+}
+
+#deco-clouds{
+	fill:#34327C;
+	background:#F3F0CF;
 }
 
