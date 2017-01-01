@@ -1,5 +1,30 @@
 #team{
 	background:#F3F0CF;
+	
+	.staff{
+		img{
+			border-radius:225px 45px 325px 75px/15px 125px 35px 155px;
+			box-shadow:6px 6px 0px rgba(103, 102, 102, 0.2);
+			height: 340px;
+		}
+		h2{
+			margin-top: -10px;
+			font-family: 'American';
+			font-size: 45px;
+			font-weight: 600;
+		}
+		.text{
+			color:#7A6767;
+			line-height: 29px;
+			font-family: 'Comfortaa';
+			font-size: 16px;
+		}
+	}
+
+	.team{
+		margin-top: 40px;
+	}
+
 	.mate{
 		display: inline-block;
 		&:hover{

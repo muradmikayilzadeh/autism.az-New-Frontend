@@ -68,6 +68,26 @@
 			}
 		}
 	}
+	
+	
+	.features{
+		i{
+			color:#D12881;
+			font-size:70px;
+			transition: all .3s ease;
+			&:hover{
+				color:#EC9600;
+			}
+		}
+		h3{
+			font-family: 'American';
+			font-size: 30px;
+		}
+		.text{
+			color:#696767;
+			font-size: 16px;
+		}
+	}
 
 	.parents{
 		margin-top: 50px;
