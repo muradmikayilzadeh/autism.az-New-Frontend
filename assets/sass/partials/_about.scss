@@ -41,17 +41,14 @@
 	}
 	.col-md-5{
 		background: url('../images/content/aboutBg.png');
-		height: 500px;	
-
-		.imgFrame{
-			width: 380px;
-			height: 380px;
-			border-radius:100%;
-			border:10px solid #34327C;
-			margin:auto;
-			margin-top: 30px;
-			overflow: hidden;
-		}
+			img{
+				max-height: 380px;
+				border-radius:100%;
+				border:10px solid #34327C;
+				margin:auto;
+				margin-top: 30px;
+				overflow: hidden;
+			}
 		.circle{
 			width: 12px;
 			height: 12px;
@@ -112,7 +109,6 @@
 					margin-top: 20px;
 					display: inline-block;
 					height: 140px;
-					height: 140px;
 					border-radius:100%;
 					box-shadow:6px 6px 0px rgba(103, 102, 102, 0.2);
 				}
@@ -134,6 +130,8 @@
 
 @media(max-width:995px){
 	#about{
-		
+		.col-md-5{
+			background:none;
+		}
 	}
 }
