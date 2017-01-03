@@ -21,3 +21,15 @@
 		font-family: 'American';
 	}
 }
+
+
+@media(max-width:480px){
+	.heading{
+		width:270px;
+		height:100px;
+		h2{
+			margin-top:-10px;
+			font-size: 30px;
+		}
+	}
+}

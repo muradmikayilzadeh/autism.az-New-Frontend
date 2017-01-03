@@ -22,11 +22,29 @@
 		}
 
 	}
+	.fa-bars{
+		display: none;
+		color:white;
+		font-size: 40px;
+		padding-top:20px;
+	}
 	.float-left{
 		float:left;
 	}
 	.float-right{
 		float:right;
+	}
+	.phoneMenu{
+		background:$menuColor;
+		border-radius:20px;
+		color:white;
+		height: 400px;
+		overflow: auto;
+		display: none;
+		li{
+			width: 100%;
+			text-align: center;
+		}
 	}
 	.logo{
 		height:110px;
@@ -39,6 +57,31 @@
 		}
 		&:hover{
 			background:#D12881;
+			cursor:pointer;
+		}
+	}
+}
+
+@media(max-width:995px){
+	#menu{
+		.logo{
+			border-radius:0px 0px 0px 0px;
+			float: left;
+			background:none;
+			img{
+				height: 85px;
+			}
+			&:hover{
+				background:none;
+
+			}
+		}
+		.float-left,.float-right{
+			display: none;
+		}
+		.fa-bars{
+			display: block;
+			float:right;
 			cursor:pointer;
 		}
 	}

@@ -82,3 +82,19 @@
 		}
 	}
 }
+
+@media(max-width:995px){
+	#team{
+		.staff{
+			.col-md-5{
+				img{
+					margin:auto;
+					height: 510px;
+				}
+			}
+			.col-md-7{
+				margin-top: 50px;
+			}
+		}
+	}
+}

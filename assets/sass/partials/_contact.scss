@@ -80,3 +80,14 @@
 		}
 	}
 }
+
+@media(max-width:995px){
+	#contact{
+		.col-md-5{
+			iframe{
+				width: 100%;
+				border-radius:none;
+			}
+		}
+	}
+}
