@@ -17,10 +17,10 @@
 			<div class="container text-center">
 				<ul class="float-left col-md-5">
 					<li class="row">
-						<li>Home</li>
-						<li>Services</li>
-						<li>About</li>
-						<li>Team</li>
+						<li><a href="index.html">Home</a></li>
+						<li><a href="#autism">Services</a></li>
+						<li><a href="#about">About</a></li>
+						<li><a href="#team">Team</a></li>
 					</li>
 				</ul>
 
@@ -32,24 +32,24 @@
 
 				<ul class="float-right col-md-5">
 					<li class="row">
-						<li>Games</li>
-						<li>Blog</li>
-						<li>Videos</li>
-						<li>Contact</li>
+						<li><a href="#games">Games</a></li>
+						<li><a href="#blog">Blog</a></li>
+						<li><a href="#info">Information</a></li>
+						<li><a href="#contact">Contact</a></li>
 					</li>
 				</ul>
 				<i class="fa fa-bars"></i>
 			</div>
 			<div class="phoneMenu col-md-10 col-md-offset-1">
 					<ul class="col-md-12">
-						<li>Home</li>
-						<li>Services</li>
-						<li>About</li>
-						<li>Team</li>
-						<li>Games</li>
-						<li>Blog</li>
-						<li>Videos</li>
-						<li>Contact</li>
+						<li><a href="index.html">Home</a></li>
+						<li><a href="#autism">Services</a></li>
+						<li><a href="#about">About</a></li>
+						<li><a href="#team">Team</a></li>
+						<li><a href="#games">Games</a></li>
+						<li><a href="#blog">Blog</a></li>
+						<li><a href="#info">Information</a></li>
+						<li><a href="#contact">Contact</a></li>
 					</ul>
 			</div>
 		</section>
@@ -431,7 +431,7 @@
 							</div>
 						</div>
 					</div>
-					<div class="bPanel col-md-4">
+					<div class="bPanel col-md-4 sonraki">
 						<div class="bCard col-md-12">
 							<div class="row">
 								<img src="assets/images/content/b2.jpg" alt="">
@@ -454,7 +454,7 @@
 							</div>
 						</div>
 					</div>
-					<div class="bPanel col-md-4">
+					<div class="bPanel col-md-4 sonraki">
 						<div class="bCard col-md-12">
 							<div class="row">
 								<img src="assets/images/content/b3.jpg" alt="">
@@ -611,3 +611,11 @@
 </html>
 <script src="assets/js/slider.js"></script>
 <script src="assets/js/menu.js"></script>
+<script>
+	$(document).ready(function (){
+		$('#menu ul li').click(function() { 
+			var target = $(this).find('a').attr('href');
+			$('html, body').animate({scrollTop: $(target).offset().top}, 1000);
+		});     
+	});
+</script>

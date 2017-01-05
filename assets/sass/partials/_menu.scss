@@ -6,14 +6,21 @@
 	position: fixed;
 	ul{
 		li{
-			color:white;
+			a{
+				color:white;
+				font-weight: 600px;
+				line-height: 75px;
+				font-family: 'Comfortaa';
+				&:hover{
+					text-decoration: none;
+				}
+			}
+			
 			display: inline-block;
 			font-size: 18px;
 			padding:0px 10px;
 			margin:0;
 			text-align:center;
-			font-weight: 600px;
-			line-height: 75px;
 			transition: all .2s ease;
 			&:hover{
 				background:#D12881;
