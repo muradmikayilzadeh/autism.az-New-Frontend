@@ -5,19 +5,19 @@ $headingColor:#D12881;
 	background:$menuColor;
 	color:white;
 }
-@import 'partials/common';
-@import 'partials/menu';
-@import 'partials/slider';
-@import 'partials/autism';
-@import 'partials/visit';
-@import 'partials/about';
-@import 'partials/team';
-@import 'partials/activities';
-@import 'partials/games';
-@import 'partials/blog';
-@import 'partials/info';
-@import 'partials/contact';
-@import 'partials/footer';
+@import 'partials/index/common';
+@import 'partials/index/menu';
+@import 'partials/index/slider';
+@import 'partials/index/autism';
+@import 'partials/index/visit';
+@import 'partials/index/about';
+@import 'partials/index/team';
+@import 'partials/index/activities';
+@import 'partials/index/games';
+@import 'partials/index/blog';
+@import 'partials/index/info';
+@import 'partials/index/contact';
+@import 'partials/index/footer';
 
 
 @font-face {
