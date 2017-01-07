@@ -1,0 +1,43 @@
+#blogs{
+	.col-md-9{
+		.blog{
+			border-bottom: 2px dotted #CECECE;
+			padding-bottom: 50px;
+			h2{
+				font-family: 'American';
+				font-weight: 600;
+				font-size: 45px;
+				color:#333333;
+			}
+			p{
+				font-weight: bold;
+				display: inline-block;
+				color:#696767;
+			}
+			img{
+				height: 480px;
+			}
+
+			.text{
+				font-weight: normal;
+			}
+
+
+			.tag{
+				background: #EC9600;
+				color:white;
+				font-weight: bold;
+				font-family: 'Comfortaa';
+				font-size: 16px;
+				padding:5px 10px;
+				display: inline-block;
+				border-radius:10px;
+				transition: all .3s ease;
+				&:hover{
+					background:#D12881;
+					cursor: pointer;
+				}
+			}
+		}
+	}
+}
